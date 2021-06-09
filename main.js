@@ -1,5 +1,5 @@
 function preload(){
-
+    mustache=loadImage('https://i.postimg.cc/3x3QzSGq/m.png');
 }
 
 function setup(){
@@ -32,7 +32,7 @@ function modelLoaded(){
 
 function draw(){
     image(video, 0,0,300,300);
-
+    image(mustache,Nose_X-25,Nose_Y,50,50);
 }
 
 function take_snapshot(){
